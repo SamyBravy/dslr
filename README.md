@@ -17,8 +17,12 @@ This project mimics the functionality of the "Sorting Hat" using machine learnin
     -   **Scatter Plots**: To observe feature correlations.
     -   **Pair Plots**: To visualize the entire dataset structure.
 -   **Machine Learning**:
-    -   **Training**: Logistic Regression with Gradient Descent.
-    -   **Prediction**: Classification of new students.
+    -   **Logistic Regression**: One-vs-All classification.
+    -   **Optimization Algorithms**:
+        -   **Batch Gradient Descent**: Stable updates using the entire dataset.
+        -   **Stochastic Gradient Descent (SGD)**: Faster updates using single examples.
+        -   **Mini-Batch Gradient Descent**: Balanced approach.
+    -   **Loss Function**: **Cross-Entropy Loss** (Log Loss) to minimize error.
     -   **Accuracy**: High precision classification (>98%).
 
 ## 🛠️ Installation
@@ -51,10 +55,11 @@ python3 pair_plot.py datasets/dataset_train.csv
 
 ### 2. Training
 
-Train the model using the training dataset. This will generate a `weights.pkl` file containing the model parameters.
+Train the model using the training dataset. You must specify the gradient descent method (`batch`, `stochastic`, or `mini_batch`).
 
 ```bash
-python3 logreg_train.py datasets/dataset_train.csv
+# Usage: python3 logreg_train.py <dataset> <mode>
+python3 logreg_train.py datasets/dataset_train.csv mini_batch
 ```
 
 ### 3. Prediction
