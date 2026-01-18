@@ -3,6 +3,8 @@
 ![Language](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white)
 ![Library](https://img.shields.io/badge/Library-Pandas%20%7C%20Numpy%20%7C%20Matplotlib-orange)
 
+<img src="plots.png" alt="Plots">
+
 ## Overview
 
 **DSLR** is a Data Science and Machine Learning project that implements Logistic Regression from scratch to solve a classification problem: sorting Hogwarts students into their respective houses (Gryffindor, Hufflepuff, Ravenclaw, Slytherin) based on their academic scores.
