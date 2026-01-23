@@ -1,4 +1,4 @@
-# 🔮 DSLR (Data Science Logistic Regression)
+# DSLR (Data Science Logistic Regression)
 
 ![Language](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white)
 ![Library](https://img.shields.io/badge/Library-Pandas%20%7C%20Numpy%20%7C%20Matplotlib-orange)
@@ -11,7 +11,7 @@
 
 This project mimics the functionality of the "Sorting Hat" using machine learning algorithms, specifically **One-vs-All** logistic regression trained via **Gradient Descent**.
 
-## 📊 Features
+## Features
 
 -   **Data Analysis**: Custom implementation of descriptive statistics (mean, std, min, max, quartiles).
 -   **Visualization**:
@@ -27,7 +27,7 @@ This project mimics the functionality of the "Sorting Hat" using machine learnin
     -   **Loss Function**: **Cross-Entropy Loss** (Log Loss) to minimize error.
     -   **Accuracy**: High precision classification (>98%).
 
-## 🛠️ Installation
+## Installation
 
 Ensure you have Python 3 installed along with the required libraries:
 
@@ -35,7 +35,7 @@ Ensure you have Python 3 installed along with the required libraries:
 pip install pandas numpy matplotlib seaborn
 ```
 
-## 🚀 Usage
+## Usage
 
 ### 1. Data Exploration
 
@@ -80,7 +80,7 @@ Compare the predictions with the actual results (if available) to calculate accu
 python3 compare.py houses.csv datasets/dataset_truth.csv
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 -   `describe.py`: Statistical analysis tool.
 -   `histogram.py`, `scatter.py`, `pair_plot.py`: Visualization tools.
